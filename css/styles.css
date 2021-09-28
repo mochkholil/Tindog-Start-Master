@@ -1,0 +1,183 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title Section */
+
+#title {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+
+.container-fluid .navbar {
+  padding-bottom: 4.5rem;
+  padding-top: 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* Download Button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img {
+  width: 20%;
+  transform: rotate(25deg);
+  right: 25%;
+}
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+}
+
+#features h3 {
+  font-size: 1.5rem;
+}
+
+.title-heading h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.row .feature-text {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.pres-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Item */
+
+#pricing {
+  padding: 100px;
+}
+
+.row .pricing-text {
+  padding: 3% 2%;
+}
+
+.pricing-colom {
+  padding: 3% 2%;
+}
+
+.card-header h3 {
+  margin-bottom: 0;
+}
+
+/* CTA Section */
+
+#cta {
+  padding: 7% 15%;
+}
+
+.cta-text {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+/* Footer Section */
+
+#footer {
+  padding: 7% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+/* Tablet and Phone Section */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+    padding-bottom: 80%;
+  }
+
+  .title-img {
+    transform: rotate(0);
+    position: static;
+    width: 40%;
+    padding-top: 10px;
+  }
+
+  .testimonial-text {
+    font-size: 1.6rem;
+  }
+}
